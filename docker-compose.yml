@@ -1,6 +1,6 @@
 services:
   node:
-    image: node
+    image: node:22
     user: node
     working_dir: /home/node
     command: tail -f /dev/null
